@@ -9,7 +9,6 @@ url="https://github.com/MathiasVjt"
 license=('GPL3')
 makedepends=('git')
 depends=()
-conflicts=('')
 provides=("${pkgname}")
 options=(!strip !emptydirs)
 source=(${pkgname}::"git+${url}/${pkgname}")
